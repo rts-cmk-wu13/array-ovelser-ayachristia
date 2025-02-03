@@ -39,4 +39,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   catsArray.push("Sniffles");
   console.log("Opgave 2:", catsArray);
+
+  //   -----opgave 3a
+
+  //   let includesName = dogsArray.some(
+  //     (dog) => dog.toLowerCase() === "watson".toLowerCase()
+  //   )
+  //     ? true
+  //     : false;
+
+  let includesName = dogsArray.includes("Trixie");
+  console.log("Opgave 3a:", includesName);
 }); // ends DOMContentLoaded
