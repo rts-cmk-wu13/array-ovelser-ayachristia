@@ -33,5 +33,10 @@ document.addEventListener("DOMContentLoaded", function () {
   //   -----opgave 1
 
   let newNumbers = numbersArray.filter((number) => number > 20);
-  console.log(newNumbers);
+  console.log("opgave 1:", newNumbers);
+
+  //   -----opgave 2
+
+  catsArray.push("Sniffles");
+  console.log("Opgave 2:", catsArray);
 }); // ends DOMContentLoaded
