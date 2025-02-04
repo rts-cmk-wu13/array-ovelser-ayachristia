@@ -48,6 +48,13 @@ document.addEventListener("DOMContentLoaded", function () {
   //     ? true
   //     : false;
 
-  let includesName = dogsArray.includes("Trixie");
-  console.log("Opgave 3a:", includesName);
+  let dogsName = dogsArray.includes("Trixie");
+  console.log("Opgave 3a:", dogsName);
+
+  //   -----opgave 3b
+
+  let dogsName1 = dogsArray.includes("Baxter");
+  console.log("Opgave 3b:", dogsName1);
+
+  //   let dogsName = dogsArray;
 }); // ends DOMContentLoaded
