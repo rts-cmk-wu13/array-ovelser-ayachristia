@@ -76,4 +76,12 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log(dogsArray);
   let stringDogs = dogsArray.join();
   console.log(stringDogs);
+
+  //   -----opgave 7a
+  let indexOfMango = fruitsArray.indexOf("Mango");
+  console.log(indexOfMango);
+
+  //   -----opgave 7b
+  let indexOfBlueBerry = fruitsArray.indexOf("Blåbær");
+  console.log(indexOfBlueBerry);
 }); // ends DOMContentLoaded
