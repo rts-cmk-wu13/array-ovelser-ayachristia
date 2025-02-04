@@ -56,5 +56,15 @@ document.addEventListener("DOMContentLoaded", function () {
   let dogsName1 = dogsArray.includes("Baxter");
   console.log("Opgave 3b:", dogsName1);
 
+  //   -----opgave 4a
+  let catsName = catsArray.includes("Bagheera")
+    ? console.log("Opgave 4:", catsName)
+    : console.log("undefined");
+
+  //   -----opgave 4b
+  console.log(catsArray);
+  let foundCat = catsArray.find((cat) => cat === "Salem");
+  console.log(foundCat ? foundCat : "undefined");
+
   //   let dogsName = dogsArray;
 }); // ends DOMContentLoaded
