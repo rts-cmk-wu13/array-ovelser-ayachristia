@@ -71,4 +71,9 @@ document.addEventListener("DOMContentLoaded", function () {
   let trippledArray = [];
   numbersArray.forEach((num) => trippledArray.push(num * 3));
   console.log(trippledArray);
+
+  //   -----opgave 6
+  console.log(dogsArray);
+  let stringDogs = dogsArray.join();
+  console.log(stringDogs);
 }); // ends DOMContentLoaded
