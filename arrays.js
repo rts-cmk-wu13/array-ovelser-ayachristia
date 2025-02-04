@@ -84,4 +84,9 @@ document.addEventListener("DOMContentLoaded", function () {
   //   -----opgave 7b
   let indexOfBlueBerry = fruitsArray.indexOf("Blåbær");
   console.log(indexOfBlueBerry);
+
+  //   -----opgave 8
+  console.log(dogsArray);
+  let newDogsList = dogsArray.filter((name) => name !== "Polly");
+  console.log(newDogsList);
 }); // ends DOMContentLoaded
