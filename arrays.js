@@ -66,5 +66,9 @@ document.addEventListener("DOMContentLoaded", function () {
   let foundCat = catsArray.find((cat) => cat === "Salem");
   console.log(foundCat ? foundCat : "undefined");
 
-  //   let dogsName = dogsArray;
+  //   -----opgave 5
+  console.log(numbersArray);
+  let trippledArray = [];
+  numbersArray.forEach((num) => trippledArray.push(num * 3));
+  console.log(trippledArray);
 }); // ends DOMContentLoaded
