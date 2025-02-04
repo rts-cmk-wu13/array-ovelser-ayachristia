@@ -89,4 +89,8 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log(dogsArray);
   let newDogsList = dogsArray.filter((name) => name !== "Polly");
   console.log(newDogsList);
+
+  //   -----ekstra opgave
+  let sumNumbersArray = numbersArray.reduce((acc, num) => acc + num, 0);
+  console.log(sumNumbersArray);
 }); // ends DOMContentLoaded
